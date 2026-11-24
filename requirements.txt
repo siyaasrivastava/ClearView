@@ -1,0 +1,12 @@
+numpy>=1.24
+scipy>=1.10
+opencv-python>=4.8
+scikit-image>=0.21
+matplotlib>=3.7
+fastapi>=0.110      # web app (serve.py)
+uvicorn>=0.27       # web app (serve.py)
+python-multipart>=0.0.9  # web app uploads
+streamlit>=1.30   # only needed for app.py (old GUI)
+pytest>=7.0       # only needed for tests
+# optional deep-learning segmentation: see requirements-deep.txt
+httpx>=0.25       # only needed for tests/test_api.py

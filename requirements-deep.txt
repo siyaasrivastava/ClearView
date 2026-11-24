@@ -1,0 +1,5 @@
+# Optional: only needed for the U-Net / MedSAM segmentation. The classical pipeline needs none of this.
+torch>=2.0
+# Meta's segment-anything (MedSAM reuses its ViT-B architecture and prompt/mask decoders):
+#   pip install git+https://github.com/facebookresearch/segment-anything.git
+# MedSAM weights (medsam_vit_b.pth, ~375 MB): see https://github.com/bowang-lab/MedSAM, save to models/medsam_vit_b.pth
